@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2025-11-22-19-54-26
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1763840223.386200	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386222	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386238	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa2.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386253	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa3.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386266	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa4.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386279	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa5.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386292	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa6.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386309	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa7.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386324	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa8.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+1763840223.386336	Cu1pJc383jXcidRdEl	10.0.0.5	12345	8.8.8.8	53	udp	1	-	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa9.example.com	1	C_INTERNET	16	TXT	-	-	F	F	T	F	0	-	-	F
+#close	2025-11-22-19-54-26
