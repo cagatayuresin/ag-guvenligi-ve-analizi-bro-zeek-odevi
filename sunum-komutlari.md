@@ -1,6 +1,11 @@
 # Sunum Notlari
 
 ```bash
+cd /usr/local/zeek
+zeek -C -r /pcap/dnscat2_dns_tunneling_24hr.pcap scripts/dns_tunnel_detect.zeek
+```
+
+```bash
 cat notice.log | zeek-cut ts id.orig_h id.resp_h note msg
 ```
 
@@ -27,4 +32,3 @@ docker cp zeek:/usr/local/zeek/notice_clean.csv .
 ```txt
 https://www.activecountermeasures.com/malware-of-the-day-dnscat2-dns-tunneling/
 ```
-
